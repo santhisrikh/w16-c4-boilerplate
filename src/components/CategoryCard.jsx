@@ -6,7 +6,7 @@ export const CategoryCard = () => {
     // dispatch filter Products for every ID change
   }, []);
   return (
-    <Grid>
+    <Grid data-testid = "category-container">
       {/* Iterate and print product cards that are of this category */}
     </Grid>
   );
